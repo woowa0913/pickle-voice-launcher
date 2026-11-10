@@ -5,19 +5,19 @@ plugins {
 
 android {
     namespace = "com.parksangu.picklevoice"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.parksangu.picklevoice"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -34,5 +34,5 @@ android {
 }
 
 dependencies {
-    implementation("androidx.annotation:annotation:1.9.1")
+    implementation("androidx.annotation:annotation:1.8.0")
 }
