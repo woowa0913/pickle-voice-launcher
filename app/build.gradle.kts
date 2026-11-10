@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.parksangu.picklevoice"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.parksangu.picklevoice"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
     }
@@ -34,5 +34,5 @@ android {
 }
 
 dependencies {
-    implementation("androidx.annotation:annotation:1.8.0")
+    implementation("androidx.annotation:annotation:1.9.1")
 }
