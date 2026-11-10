@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.NoDisplay" parent="android:Theme.Material.NoDisplay">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>
